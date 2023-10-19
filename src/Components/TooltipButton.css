@@ -1,0 +1,33 @@
+.tooltip-button-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-button {
+    background-color: #007bff00;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .tooltip {
+    width: 400px;
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+  }
+  
+  .tooltip-button-container:hover .tooltip {
+    opacity: 1;
+  }
+  

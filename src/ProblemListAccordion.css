@@ -1,0 +1,105 @@
+ .problem-body {
+     /* display: none; */
+     width: 1000px;
+     overflow: hidden;
+     margin-top: 50px;
+ }
+
+ .category-header {
+     cursor: pointer;
+     padding: 10px;
+     background-color: #242427;
+     border: 1px solid #9a9a9a;
+     color: whitesmoke;
+     font-family: sans-serif;
+     font-weight: bolder;
+     font-size: larger;
+ }
+
+ .category-header.open {
+     border: 5px solid #ddd;
+ }
+
+ .category-header:hover {
+    background-color: #2e2e32;
+ }
+
+ .problem-list.open{
+    display: block;
+ }
+
+ .problem-list.close{
+    display: none;
+ }
+
+ .category.open .problem-list {
+     display: block;
+ }
+
+ .problem-table {
+     border-collapse: collapse;
+ }
+
+ .problem {
+     padding: 10px;
+     /* border: 1px solid whitesmoke; */
+     height: 40px;
+     background-color: rgba(0, 93, 112, 0.614);
+     border-top: 1px solid rgb(164, 164, 164);
+ }
+
+ .problem-serial {
+     color: whitesmoke;
+     width: 80px;
+ }
+
+ .problem td a {
+     text-decoration: none;
+     color: whitesmoke;
+ }
+
+ .problem-table {
+     width: 100%;
+ }
+
+ .problem:not(:last-child) {
+     border-bottom: none;
+ }
+
+ .problem-table-head {
+     background-color: #343434;
+     color: whitesmoke;
+     height: 40px;
+ }
+
+ .problem-table-head.tr.th {
+     color: whitesmoke
+ }
+
+ .problem-name {
+     text-align: left;
+     font-weight: bold;
+ }
+
+ .problem-status {
+     width: 80px;
+ }
+
+ .problem-difficulty {
+     width: 80px;
+ }
+
+ .problem-difficulty.Easy {
+     color: rgb(0, 255, 0);
+     font-weight: bold;
+ }
+
+ .problem-difficulty.Medium {
+     color: rgb(255, 204, 0);
+     font-weight: bold;
+ }
+
+ .problem-difficulty.Hard {
+     color: rgb(255, 0, 0);
+     font-weight: bold;
+ }
