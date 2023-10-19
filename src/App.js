@@ -35,7 +35,7 @@ function App() {
         <ProblemListAccordion problemsData={problemsData} />
       </div>
       <div className='footer'>
-      Make it work, make it right, make it fast – Kent Beck
+        Make it work, make it right, make it fast – Kent Beck
       </div>
     </div>
   );
