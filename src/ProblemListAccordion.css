@@ -1,9 +1,55 @@
- .problem-body {
-     /* display: none; */
-     width: 1000px;
-     overflow: hidden;
-     margin-top: 50px;
- }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+  .problem-body {
+    /* display: none; */
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+  .problem-body {
+    /* display: none; */
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+  .problem-body {
+    /* display: none; */
+    width: 1000px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+  .problem-body {
+    /* display: none; */
+    width: 1300px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+}
+
+ 
+
 
  .category-header {
      cursor: pointer;
