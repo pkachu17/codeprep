@@ -3,6 +3,7 @@ import './App.css';
 import ProblemListAccordion from './ProblemListAccordion';
 import data from "./ProblemData.json";
 import TooltipButton from './Components/TooltipButton';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       </div>
       <div className='body'>
         <ProblemListAccordion problemsData={problemsData} />
+        <Analytics />
       </div>
       <div className='footer'>
         Make it work, make it right, make it fast – Kent Beck
